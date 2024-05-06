@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://media.istockphoto.com/id/1319467946/photo/young-black-and-white-cow-heifer-in-a-meadow-looking-in-the-camera.webp?b=1&s=170667a&w=0&k=20&c=I6PiKwCmZZDr5buXiupUkGRgO9RRfzC9uEU7kNGCcmg=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+   
+}
+
+h1{
+    text-align: center;
+    color: purple;
+    margin-top: 50px;
+}
+
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 100px;
+    min-width: 100px;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    flex-direction: column;
+}
+.heading{
+    font-size: 30px;
+    margin-bottom: 6px;
+}
